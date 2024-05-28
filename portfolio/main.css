@@ -91,7 +91,11 @@ ul {
   font-size: 15px;
   color: #5d5d5d;
 }
-.landing-page .content .info button {
+.landing-page .content .info .button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
   border: 0;
   border-radius: 20px;
   padding: 12px 30px;
@@ -99,6 +103,10 @@ ul {
   cursor: pointer;
   color: #FFF;
   background-color: #724873;
+}
+
+.landing-page .content .info .button:hover {
+    background-color: darken(#724873, 10%);
 }
 
 img{
